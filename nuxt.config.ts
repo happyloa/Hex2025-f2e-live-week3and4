@@ -46,4 +46,6 @@ export default defineNuxtConfig({
     inject: true,
     display: "swap",
   },
+
+  css: ["~/assets/css/fonts.css"],
 });

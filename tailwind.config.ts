@@ -25,7 +25,7 @@ export default <Partial<Config>>{
         danger: {
           "100": "#FCF1F1",
           "200": "#EBA7A7",
-          DEFAULT: "#E9ECEF",
+          DEFAULT: "#D74F4F",
         },
         success: {
           "100": "#EFF8F4",

@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
+
+  // 網站 meta 設定
   app: {
     head: {
       title: "2025 切版直播班 - 鞋子電商 W3&W4",
@@ -33,4 +35,15 @@ export default defineNuxtConfig({
     },
   },
   modules: ["@nuxtjs/google-fonts", "@nuxtjs/tailwindcss", "nuxt-swiper"],
+
+  // Google Fonts 的相關配置
+  googleFonts: {
+    families: {
+      "Noto+Sans+TC": [400, 500, 700],
+      Mina: [700],
+    },
+    download: true,
+    inject: true,
+    display: "swap",
+  },
 });

@@ -157,6 +157,9 @@ export default <Partial<Config>>{
           },
         ],
       },
+      maxWidth: {
+        container: "1296px",
+      },
     },
   },
 };

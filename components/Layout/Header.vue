@@ -6,8 +6,22 @@
       <nav class="flex items-center gap-12">
         <AtomLogoWithDot />
         <ul class="hidden gap-10 font-medium md:flex">
-          <li class="py-3"><NuxtLink to="/shop">商品列表</NuxtLink></li>
-          <li class="py-3"><NuxtLink to="/about">品牌故事</NuxtLink></li>
+          <li class="py-3">
+            <NuxtLink
+              to="/shop"
+              class="transition duration-300 hover:text-primary"
+              :class="$route.path.includes('shop') ? 'text-primary' : ''"
+              >商品列表</NuxtLink
+            >
+          </li>
+          <li class="py-3">
+            <NuxtLink
+              to="/about"
+              class="transition duration-300 hover:text-primary"
+              :class="$route.path.includes('about') ? 'text-primary' : ''"
+              >品牌故事</NuxtLink
+            >
+          </li>
         </ul>
       </nav>
       <NuxtLink

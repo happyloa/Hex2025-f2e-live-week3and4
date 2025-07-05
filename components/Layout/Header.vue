@@ -42,7 +42,9 @@
         </svg>
       </NuxtLink>
     </div>
+    <!-- 只有首頁才顯示下面的選單 -->
     <nav
+      v-if="$route.path === '/'"
       class="grid grid-cols-2 text-center text-label-md font-medium md:hidden"
     >
       <NuxtLink

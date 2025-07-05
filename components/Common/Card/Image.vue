@@ -13,7 +13,7 @@ const { img } = toRefs(props);
 </script>
 
 <template>
-  <NuxtLink to="/shop/single-product.vue">
+  <NuxtLink to="/shop/single-product">
     <article class="group relative">
       <img
         :src="img"

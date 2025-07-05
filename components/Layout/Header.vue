@@ -26,7 +26,8 @@
       </nav>
       <NuxtLink
         to="/collection"
-        class="p-3 text-neutral transition duration-300 hover:text-primary-300"
+        class="p-3 text-neutral transition duration-300 hover:text-primary"
+        :class="$route.path.includes('collection') ? 'text-primary' : ''"
       >
         <svg
           width="24"

@@ -52,7 +52,40 @@
   </section>
   <!-- 熱銷補貨 -->
   <section class="px-3 py-10 md:py-16">
-    <div class="mx-auto max-w-container"></div>
+    <div class="mx-auto max-w-container">
+      <h2 class="mb-4 text-h4 md:text-h2">熱銷補貨</h2>
+      <!-- 電腦版 -->
+      <div class="hidden grid-cols-4 gap-6 md:grid">
+        <CommonCardImage img="/images/desktop/home/hot-1.webp" />
+        <CommonCardImage img="/images/desktop/home/hot-2.webp" />
+        <CommonCardImage img="/images/desktop/home/hot-3.webp" />
+        <CommonCardImage img="/images/desktop/home/hot-4.webp" />
+      </div>
+      <!-- 手機版 -->
+      <ClientOnly>
+        <swiper-container
+          class="block md:hidden"
+          :slides-per-view="1.2"
+          space-between="16"
+          autoplay-delay="3000"
+          autoplay-disable-on-interaction="true"
+          :loop="true"
+        >
+          <swiper-slide>
+            <CommonCardImage img="/images/desktop/home/hot-1.webp" />
+          </swiper-slide>
+          <swiper-slide>
+            <CommonCardImage img="/images/desktop/home/hot-2.webp" />
+          </swiper-slide>
+          <swiper-slide>
+            <CommonCardImage img="/images/desktop/home/hot-3.webp" />
+          </swiper-slide>
+          <swiper-slide>
+            <CommonCardImage img="/images/desktop/home/hot-4.webp" />
+          </swiper-slide>
+        </swiper-container>
+      </ClientOnly>
+    </div>
   </section>
   <!-- 跨界聯名 -->
   <section class="overflow-x-hidden py-6 md:py-12">

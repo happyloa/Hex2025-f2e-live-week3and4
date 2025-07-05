@@ -1,3 +1,10 @@
+<script setup>
+useSeoMeta({
+  title: "首頁 | 2025 切版直播班 - 鞋子電商 W3&4",
+  ogTitle: "首頁 | 2025 切版直播班 - 鞋子電商 W3&4",
+});
+</script>
+
 <template>
   <!-- Banner -->
   <section

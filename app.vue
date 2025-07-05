@@ -1,5 +1,5 @@
 <template>
-  <div class="text-neutral selection:bg-primary selection:text-white">
+  <div class="font-bold text-neutral selection:bg-primary selection:text-white">
     <NuxtRouteAnnouncer />
     <NuxtPage />
   </div>

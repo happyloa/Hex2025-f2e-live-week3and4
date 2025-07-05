@@ -35,7 +35,7 @@ const { img, name, price } = toRefs(props);
       :alt="name"
       class="mb-2 block transition duration-300 group-hover:opacity-80 sm:mb-3"
     />
-    <h3 class="mb-0 text-h6 font-bold sm:mb-1 sm:text-h5">{{ name }}</h3>
+    <h3 class="mb-0 text-h6 sm:mb-1 sm:text-h5">{{ name }}</h3>
     <p class="text-label-md font-medium">NT${{ price }}</p>
   </article>
 </template>

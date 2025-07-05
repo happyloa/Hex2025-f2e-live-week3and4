@@ -89,9 +89,153 @@
       </div>
     </div>
   </section>
+  <!-- 依系列選購 -->
   <section class="px-3 py-10 md:py-16">
     <div class="mx-auto max-w-container">
-      <h2 class="text-h4 md:text-h2">依系列選購</h2>
+      <h2 class="mb-4 text-h4 md:text-h2">依系列選購</h2>
+    </div>
+  </section>
+  <!-- 穿搭靈感 -->
+  <section class="px-3 py-10 md:py-16">
+    <div class="mx-auto max-w-container">
+      <h2 class="mb-4 text-h4 md:text-h2">穿搭靈感</h2>
+      <!-- 電腦版 -->
+      <div class="hidden gap-2 md:grid md:grid-cols-4 lg:grid-cols-6">
+        <img
+          src="/public/images/desktop/home/inspiration-1.webp"
+          alt="穿搭靈感1"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-2.webp"
+          alt="穿搭靈感2"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-3.webp"
+          alt="穿搭靈感3"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-4.webp"
+          alt="穿搭靈感4"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-5.webp"
+          alt="穿搭靈感5"
+          class="lg:col-span-2 lg:row-span-2"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-6.webp"
+          alt="穿搭靈感6"
+          class="lg:col-span-2 lg:row-span-2"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-7.webp"
+          alt="穿搭靈感7"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-8.webp"
+          alt="穿搭靈感8"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-9.webp"
+          alt="穿搭靈感9"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-10.webp"
+          alt="穿搭靈感10"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-11.webp"
+          alt="穿搭靈感11"
+        />
+        <img
+          src="/public/images/desktop/home/inspiration-12.webp"
+          alt="穿搭靈感12"
+        />
+      </div>
+      <!-- 手機版輪播 -->
+      <ClientOnly>
+        <swiper-container
+          class="block md:hidden"
+          :slides-per-view="1.2"
+          space-between="16"
+          autoplay-delay="3000"
+          autoplay-disable-on-interaction="true"
+          :loop="true"
+        >
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-1.webp"
+              alt="穿搭靈感1"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-2.webp"
+              alt="穿搭靈感2"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-3.webp"
+              alt="穿搭靈感3"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-4.webp"
+              alt="穿搭靈感4"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-5.webp"
+              alt="穿搭靈感5"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-6.webp"
+              alt="穿搭靈感6"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-7.webp"
+              alt="穿搭靈感7"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-8.webp"
+              alt="穿搭靈感8"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-9.webp"
+              alt="穿搭靈感9"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-10.webp"
+              alt="穿搭靈感10"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-11.webp"
+              alt="穿搭靈感11"
+            />
+          </swiper-slide>
+          <swiper-slide>
+            <img
+              src="/public/images/desktop/home/inspiration-12.webp"
+              alt="穿搭靈感12"
+            />
+          </swiper-slide>
+        </swiper-container>
+      </ClientOnly>
     </div>
   </section>
 </template>

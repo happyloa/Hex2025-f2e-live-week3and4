@@ -5,7 +5,7 @@
       class="flex flex-wrap items-center justify-center gap-4 bg-primary-200 p-6 md:gap-6"
     >
       <p class="text-h5 md:text-h4">加入會員取得 9 折優惠</p>
-      <AtomButton text="馬上註冊" intent="neutral" />
+      <AtomButton to="/register" text="馬上註冊" intent="neutral" />
     </div>
   </section>
   <!-- 連結與版權宣告 -->

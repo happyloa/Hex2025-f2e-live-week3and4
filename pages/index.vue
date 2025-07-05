@@ -93,6 +93,28 @@
   <section class="px-3 py-10 md:py-16">
     <div class="mx-auto max-w-container">
       <h2 class="mb-4 text-h4 md:text-h2">依系列選購</h2>
+      <div class="grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-6">
+        <CommonCardCategory
+          img="/images/desktop/home/category-1.webp"
+          name="URBN RUNNER"
+          category="慢跑系列"
+        />
+        <CommonCardCategory
+          img="/images/desktop/home/category-2.webp"
+          name="STREETMODE"
+          category="滑板系列"
+        />
+        <CommonCardCategory
+          img="/images/desktop/home/category-3.webp"
+          name="CHUNK DISTRICT"
+          category="厚底系列"
+        />
+        <CommonCardCategory
+          img="/images/desktop/home/category-4.webp"
+          name="COLLAB ZONE"
+          category="聯名企劃"
+        />
+      </div>
     </div>
   </section>
   <!-- 穿搭靈感 -->

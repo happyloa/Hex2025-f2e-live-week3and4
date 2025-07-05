@@ -50,4 +50,45 @@
       </ul>
     </div>
   </section>
+  <!-- 熱銷補貨 -->
+  <section class="px-3 py-10 md:py-16">
+    <div class="mx-auto max-w-container"></div>
+  </section>
+  <!-- 跨界聯名 -->
+  <section class="overflow-x-hidden py-6 md:py-12">
+    <div
+      class="h-[450px] content-center justify-items-center bg-[url(/images/mobile/home/banner-co-branded.webp)] bg-cover bg-center px-3 md:h-[470px] md:bg-[url(/images/desktop/home/banner-co-branded.webp)]"
+    >
+      <div class="relative text-center text-white">
+        <h2
+          class="mb-4 flex flex-col items-center gap-2 text-h2 font-bold md:flex-row md:gap-6 md:text-display-2"
+        >
+          URBNSTEP<span class="text-h3 text-primary-300 md:text-h1">x</span
+          >Kevin Chen
+        </h2>
+        <p class="mb-6 text-h5 font-bold md:mb-8 md:text-h2">
+          跨界聯名，限量發售
+        </p>
+        <p
+          class="mb-8 text-paragraph-md text-neutral-500 md:mb-12 md:text-paragraph-lg"
+        >
+          新銳漫畫家 Kevin Chen 親自操刀設計<br class="block md:hidden" /><span
+            class="hidden md:inline"
+            >，</span
+          >街頭能量全面引爆！
+        </p>
+        <AtomButton text="立即搶購" class="mx-auto" />
+        <img
+          src="/public/images/deco/star.svg"
+          alt="星星裝飾"
+          class="absolute -left-[32px] -top-[32px] size-12 md:-left-[80px]"
+        />
+        <img
+          src="/public/images/deco/sparkle.svg"
+          alt="火花裝飾"
+          class="absolute -right-[40px] bottom-[40px] h-16 w-[76px] md:bottom-[32px]"
+        />
+      </div>
+    </div>
+  </section>
 </template>

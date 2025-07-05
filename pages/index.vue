@@ -75,7 +75,7 @@
             >，</span
           >街頭能量全面引爆！
         </p>
-        <AtomButton text="立即搶購" class="mx-auto" />
+        <AtomButton to="/shop" text="立即搶購" class="mx-auto" />
         <img
           src="/public/images/deco/star.svg"
           alt="星星裝飾"

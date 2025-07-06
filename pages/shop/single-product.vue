@@ -376,4 +376,71 @@ const isCollected = ref(false);
       </main>
     </div>
   </section>
+  <!-- 你可能也喜歡... -->
+  <section class="px-3 py-10 sm:py-12">
+    <div class="mx-auto max-w-container">
+      <h2 class="mb-4 py-2 text-h5 sm:py-[9.5px] sm:text-h4">
+        你可能也喜歡...
+      </h2>
+      <!-- 電腦版 -->
+      <div class="hidden grid-cols-2 gap-6 sm:grid lg:grid-cols-4">
+        <CommonCardProduct
+          img="/images/desktop/single-product/also-like-1.webp"
+          name="VM001"
+          price="2,600"
+        />
+        <CommonCardProduct
+          img="/images/desktop/single-product/also-like-2.webp"
+          name="Melty Kiss"
+          price="4,000"
+        />
+        <CommonCardProduct
+          img="/images/desktop/single-product/also-like-3.webp"
+          name="BOOMBLOK"
+          price="3,200"
+        />
+        <CommonCardProduct
+          img="/images/desktop/single-product/also-like-4.webp"
+          name="Sugar Snap"
+          price="3,200"
+        />
+      </div>
+      <!-- 手機版 -->
+      <ClientOnly>
+        <swiper-container
+          class="block sm:hidden"
+          :slides-per-view="1.2"
+          space-between="16"
+          autoplay-delay="3000"
+          autoplay-disable-on-interaction="true"
+          :loop="true"
+        >
+          <swiper-slide
+            ><CommonCardProduct
+              img="/images/desktop/single-product/also-like-1.webp"
+              name="VM001"
+              price="2,600"
+          /></swiper-slide>
+          <swiper-slide
+            ><CommonCardProduct
+              img="/images/desktop/single-product/also-like-2.webp"
+              name="Melty Kiss"
+              price="4,000"
+          /></swiper-slide>
+          <swiper-slide
+            ><CommonCardProduct
+              img="/images/desktop/single-product/also-like-3.webp"
+              name="BOOMBLOK"
+              price="3,200"
+          /></swiper-slide>
+          <swiper-slide
+            ><CommonCardProduct
+              img="/images/desktop/single-product/also-like-4.webp"
+              name="Sugar Snap"
+              price="3,200"
+          /></swiper-slide>
+        </swiper-container>
+      </ClientOnly>
+    </div>
+  </section>
 </template>

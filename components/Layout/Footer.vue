@@ -1,6 +1,9 @@
 <template>
   <!-- 加入會員 CTA -->
-  <section class="pt-6 md:pt-12">
+  <section
+    v-if="!['/collection', '/login', '/register'].includes($route.path)"
+    class="pt-6 md:pt-12"
+  >
     <div
       class="flex flex-wrap items-center justify-center gap-4 bg-primary-200 p-6 md:gap-6"
     >

@@ -10,7 +10,7 @@ useSeoMeta({
     <div class="mx-auto max-w-container">
       <!-- 麵包屑 -->
       <div
-        class="mb-3 flex items-center gap-2 text-label-sm font-medium md:mb-6 md:gap-3 md:text-label-md"
+        class="mb-3 flex items-center gap-2 text-label-sm font-medium text-neutral-300 md:mb-6 md:gap-3 md:text-label-md"
       >
         <NuxtLink
           to="/"
@@ -24,7 +24,7 @@ useSeoMeta({
           >女鞋</NuxtLink
         >
         /
-        <span>所有商品</span>
+        <span class="text-neutral">所有商品</span>
       </div>
       <!-- 標題 -->
       <h1 class="mb-3 py-[9.5px] text-h4 md:mb-6 md:py-[7px] md:text-h3">

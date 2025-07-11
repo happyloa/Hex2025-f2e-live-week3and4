@@ -21,18 +21,18 @@
         <ul
           class="flex flex-col gap-1 pl-3 text-label-md font-medium md:flex-row md:items-center md:gap-10 md:pl-0"
         >
-          <li class="py-3">
+          <li>
             <NuxtLink
               to="/shop"
-              class="transition duration-300 hover:text-primary"
+              class="py-3 transition duration-300 hover:text-primary"
               :class="$route.path.includes('shop') ? 'text-primary' : ''"
               >商品列表</NuxtLink
             >
           </li>
-          <li class="py-3">
+          <li>
             <NuxtLink
               to="/about"
-              class="transition duration-300 hover:text-primary"
+              class="py-3 transition duration-300 hover:text-primary"
               :class="$route.path.includes('about') ? 'text-primary' : ''"
               >品牌故事</NuxtLink
             >

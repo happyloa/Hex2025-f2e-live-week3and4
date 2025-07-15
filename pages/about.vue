@@ -63,7 +63,7 @@ useSeoMeta({
       class="mx-auto mb-8 max-w-[856px] border-b border-neutral-300 pb-8 md:mb-12 md:pb-12"
     >
       <h2 class="mb-4 text-h5 md:mb-6 md:text-h4">品牌歷程</h2>
-      <ul
+      <ol
         class="flex list-inside list-disc flex-col gap-3 pl-3 text-paragraph-md font-normal"
       >
         <li>
@@ -84,7 +84,7 @@ useSeoMeta({
             >URBNSTEP 已成為台灣街頭生活風格的代表鞋履品牌之一。</span
           >
         </li>
-      </ul>
+      </ol>
     </div>
     <!-- 品牌理念 -->
     <div

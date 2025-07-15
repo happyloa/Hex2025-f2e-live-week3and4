@@ -15,7 +15,7 @@
   <footer class="bg-neutral-100 px-3 py-8 md:py-16">
     <div class="mx-auto max-w-container">
       <nav
-        class="mb-6 flex flex-col justify-between md:flex-row md:items-center"
+        class="mb-6 flex flex-col justify-between gap-2 md:flex-row md:items-center"
       >
         <AtomLogoWithDot />
         <ul
@@ -24,7 +24,7 @@
           <li>
             <NuxtLink
               to="/shop"
-              class="py-3 transition duration-300 hover:text-primary"
+              class="block py-3 transition duration-300 hover:text-primary"
               :class="$route.path.includes('shop') ? 'text-primary' : ''"
               >商品列表</NuxtLink
             >
@@ -32,7 +32,7 @@
           <li>
             <NuxtLink
               to="/about"
-              class="py-3 transition duration-300 hover:text-primary"
+              class="block py-3 transition duration-300 hover:text-primary"
               :class="$route.path.includes('about') ? 'text-primary' : ''"
               >品牌故事</NuxtLink
             >

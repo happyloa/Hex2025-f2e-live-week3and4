@@ -36,7 +36,7 @@ useSeoMeta({
           class="top-[100px] hidden max-w-[196px] flex-1 shrink-0 self-start md:block xl:sticky"
         >
           <nav>
-            <ul class="flex flex-col gap-4 text-label-md font-medium">
+            <ul class="space-y-4 text-label-md font-medium">
               <li>
                 <a href="#" class="block py-3 text-primary">所有商品</a>
               </li>

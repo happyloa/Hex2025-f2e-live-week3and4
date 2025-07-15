@@ -104,3 +104,7 @@ public
 - [Nuxt Swiper](https://nuxt.com/modules/swiper)
 - [TinyPNG](https://tinypng.com/)
 - [ChatGPT o3](https://openai.com/)
+
+## 2025/07/15 助教修改建議
+
+![](https://raw.githubusercontent.com/happyloa/Hex2025-f2e-live-week3and4/refs/heads/main/public/ta-advise.webp)

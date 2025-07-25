@@ -37,6 +37,15 @@
               >品牌故事</NuxtLink
             >
           </li>
+          <!-- 專案 repo 連結 -->
+          <li>
+            <a
+              href="https://github.com/happyloa/Hex2025-f2e-live-week3and4"
+              target="_blank"
+              class="block py-3 transition duration-300 hover:text-primary"
+              >GitHub</a
+            >
+          </li>
         </ul>
       </nav>
       <div

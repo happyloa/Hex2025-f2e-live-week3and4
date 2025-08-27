@@ -1,5 +1,5 @@
 <template>
-  <header class="liquid-glass | sticky top-0 z-40">
+  <header class="sticky top-0 z-40 bg-white/80 backdrop-blur">
     <div
       class="mx-auto flex max-w-container items-center justify-between p-3 md:px-0 md:py-4"
     >
@@ -62,28 +62,4 @@
       >
     </nav>
   </header>
-
-  <!-- 進階：SVG 濾鏡 -->
-  <svg style="position: fixed; width: 0; height: 0; pointer-events: none">
-    <filter id="liquid-header-displace">
-      <feTurbulence
-        id="liqNoise"
-        type="fractalNoise"
-        baseFrequency="0.006 0.005"
-        numOctaves="2"
-        seed="11"
-        result="noise"
-      />
-      <feGaussianBlur in="noise" stdDeviation="0.6" result="blur" />
-      <feDisplacementMap
-        in="SourceGraphic"
-        in2="blur"
-        scale="40"
-        xChannelSelector="R"
-        yChannelSelector="G"
-      />
-    </filter>
-  </svg>
 </template>
-
-<style src="~/assets/css/liquid-glass.css"></style>

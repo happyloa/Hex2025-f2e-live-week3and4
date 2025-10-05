@@ -4,7 +4,7 @@
 
 此專案為六角學院 2025 切版直播班的第三、四週作業之成品
 
-- [線上部署連結](https://hex2025-f2e-live-week3and4.vercel.app/)
+- [線上部署連結](https://hex2025-f2e-live-week3and4.pages.dev/)
 - [設計稿](https://www.figma.com/design/CYjKvZQo3db8xYCp6DCkKj/%E5%85%AD%E8%A7%92%EF%BD%9C%E9%9E%8B%E5%AD%90%E9%9B%BB%E5%95%86-W3%E3%80%81W4-%EF%BC%88student-ver.%EF%BC%89)
 
 ## 使用技術
